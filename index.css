@@ -1,0 +1,35 @@
+@font-face {
+    src: url("CursedTimerUtil-Aznm.tff");
+    font-family: CursedTimer;
+}
+
+body {
+    margin: 0;
+    background: navy;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-card {
+    background: #0a0001;
+    font-family: CursedTimer;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 180px;
+    margin: 20px;
+}
+
+button {
+    margin: 30px 5px;
+    background: none;
+    color: white;
+    border-radius: 6px;
+    border: 1.5px solid white;
+    padding: 8px 10px;
+    font-family: CursedTimer;
+}
